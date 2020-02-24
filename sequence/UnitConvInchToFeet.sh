@@ -4,4 +4,4 @@
 
 read -p "Enter number to convert inch to feet : " num
 feet=`echo "$num*0.083333334" | bc -l`;           
-echo "Feet=$feet"
+echo "Feet=$feet" 
