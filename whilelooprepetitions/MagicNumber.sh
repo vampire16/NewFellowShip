@@ -16,10 +16,10 @@ do
 		FIRST=$(($MID+1))
 	elif [ $MID -eq $number ]
 	then
-		echo "got the number $number"
+		echo "Got the number $number"
  		break
 	else
 		LAST=$(($MID-1))
 	fi
-MID=$(( $(($FIRST+$LAST))/2 ))
+   MID=$(( $(($FIRST+$LAST))/2 ))
 done
